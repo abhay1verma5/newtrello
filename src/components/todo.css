@@ -1,0 +1,98 @@
+
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  
+  .main{
+    display: flex;
+    flex-direction: row;
+  }
+ .menuicon{
+   
+ }
+ .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #333; /* Change the border color and width as needed */
+    overflow: hidden;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain image aspect ratio and cover the circle */
+}
+p{
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  .Todo {
+  
+    background: #e8e6ef;
+    color: #120202;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    height: 200px;
+   
+  }
+
+  .Todo1 {
+  
+    background: #e8e6ef;
+    color: #120202;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+   height: 250px;
+   
+  }
+  .Todo2 {
+  
+    background: #e8e6ef;
+    color: #120202;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    height: 100px;
+   
+  }
+  .Todo3 {
+  
+    background: #e8e6ef;
+    color: #120202;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    height: 150px;
+   
+  }
+  .fil {
+    appearance: none; 
+    height: 10px; 
+    width: 100%; 
+    background-color: transparent; 
+    border: none; 
+
+  }
+  
+  .fil::-webkit-progress-bar {
+    background-color: transparent; 
+  }
+  
+  .fil::-webkit-progress-value {
+    background-color: blue;  
+  }
+  
+  .fil::-moz-progress-bar {
+    background-color: blue; 
+  }
+  
+  

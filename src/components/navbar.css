@@ -1,0 +1,25 @@
+.navbar {
+    width: 100%;
+    background-color:rgb(20, 84, 179);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .bor_hov
+  {
+    border: 1px solid green;
+  
+    
+
+  }
+  .left_nav{
+    margin-left: 80rem;
+   
+  }
